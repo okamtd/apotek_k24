@@ -1,0 +1,812 @@
+2016/07/22 02:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp1\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/apotek_k24/index.php?r=gii
+---
+2016/07/22 02:51:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member".' in C:\xampp1\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member')
+#1 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/apotek_k24/index.php?r=member
+---
+2016/07/22 03:39:34 [error] [exception.CException] exception 'CException' with message 'Login and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp1\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp1\htdocs\apotek_K24\protected\components\UserIdentity.php(18): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp1\htdocs\apotek_K24\protected\components\UserIdentity.php(18): Login->validatePassword('admin')
+#3 C:\xampp1\htdocs\apotek_K24\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 C:\xampp1\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp1\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp1\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp1\htdocs\apotek_K24\protected\controllers\SiteController.php(94): CModel->validate()
+#8 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 03:39:55 [error] [exception.CException] exception 'CException' with message 'Login and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp1\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp1\htdocs\apotek_K24\protected\components\UserIdentity.php(18): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp1\htdocs\apotek_K24\protected\components\UserIdentity.php(18): Login->validatePassword('oka')
+#3 C:\xampp1\htdocs\apotek_K24\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 C:\xampp1\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp1\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp1\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp1\htdocs\apotek_K24\protected\controllers\SiteController.php(94): CModel->validate()
+#8 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 03:50:19 [error] [exception.CException] exception 'CException' with message 'Property "Login.saltPassword" is not defined.' in C:\xampp1\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('saltPassword')
+#1 C:\xampp1\htdocs\apotek_K24\protected\models\Login.php(95): CActiveRecord->__get('saltPassword')
+#2 C:\xampp1\htdocs\apotek_K24\protected\components\UserIdentity.php(18): Login->validatePassword('admin')
+#3 C:\xampp1\htdocs\apotek_K24\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 C:\xampp1\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp1\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp1\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp1\htdocs\apotek_K24\protected\controllers\SiteController.php(94): CModel->validate()
+#8 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 04:15:35 [error] [exception.CDbException] exception 'CDbException' with message 'Table "login" does not have a column named "user".' in C:\xampp1\htdocs\yii\framework\db\schema\CDbCommandBuilder.php:697
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\db\ar\CActiveRecord.php(1523): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp1\htdocs\apotek_K24\protected\components\UserIdentity.php(13): CActiveRecord->findByAttributes(Array)
+#2 C:\xampp1\htdocs\apotek_K24\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp1\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp1\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp1\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp1\htdocs\apotek_K24\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 04:46:10 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp1\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp1\htdocs\apotek_K24\protected\components\UserIdentity.php(14): spl_autoload_call()
+#1 C:\xampp1\htdocs\apotek_K24\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp1\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#3 C:\xampp1\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#4 C:\xampp1\htdocs\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#5 C:\xampp1\htdocs\apotek_K24\protected\controllers\SiteController.php(94): LoginForm->validate()
+#6 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp1\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\xampp1\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp1\htdocs\apotek_K24\index.php(13): CWebApplication->run()
+REQUEST_URI=/apotek_k24/index.php?r=site/login
+in C:\xampp1\htdocs\apotek_K24\protected\components\UserIdentity.php (14)
+in C:\xampp1\htdocs\apotek_K24\protected\models\LoginForm.php (52)
+in C:\xampp1\htdocs\apotek_K24\protected\controllers\SiteController.php (94)
+2016/07/22 04:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 04:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 04:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 04:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+---
+2016/07/22 04:48:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+---
+2016/07/22 04:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 04:53:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 04:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 05:04:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 05:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 05:12:45 [error] [exception.CDbException] exception 'CDbException' with message 'Table "login" does not have a column named "user".' in C:\xampp1\htdocs\yii\framework\db\schema\CDbCommandBuilder.php:697
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\db\ar\CActiveRecord.php(1523): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp1\htdocs\apotek_K24\protected\components\UserIdentity.php(13): CActiveRecord->findByAttributes(Array)
+#2 C:\xampp1\htdocs\apotek_K24\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp1\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp1\htdocs\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp1\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp1\htdocs\apotek_K24\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/login
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 05:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 05:15:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 05:19:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/admin
+---
+2016/07/22 05:19:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/admin
+---
+2016/07/22 05:19:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login
+---
+2016/07/22 05:20:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/index
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/view&id=1
+---
+2016/07/22 05:20:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/index
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/view&id=1
+---
+2016/07/22 05:20:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/view&id=1
+---
+2016/07/22 05:21:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 05:24:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp1\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 06:04:53 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "calendarField".' in C:\xampp1\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\_form.php(36): CComponent->__call('calendarField', Array)
+#1 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\_form.php(36): CActiveForm->calendarField(Object(RegMember), 'tgllahir_mem')
+#2 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#4 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#5 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#8 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#9 C:\xampp1\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp1\htdocs\apotek_K24\protected\controllers\RegMemberController.php(79): CController->render('create', Array)
+#11 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): RegMemberController->actionCreate()
+#12 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#21 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('RegMember/Creat...')
+#22 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/apotek_k24/index.php?r=RegMember/Create&view=about
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=site/login
+---
+2016/07/22 06:39:10 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.chengeYear" is not defined.' in C:\xampp1\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('chengeYear', true)
+#1 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(RegMemberController), 'zii.widgets.jui...', Array)
+#2 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\_form.php(47): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#7 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#9 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#11 C:\xampp1\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp1\htdocs\apotek_K24\protected\controllers\RegMemberController.php(79): CController->render('create', Array)
+#13 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): RegMemberController->actionCreate()
+#14 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#23 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('RegMember/Creat...')
+#24 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/apotek_k24/index.php?r=RegMember/Create&view=about
+---
+2016/07/22 06:39:54 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.changeYear" is not defined.' in C:\xampp1\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('changeYear', true)
+#1 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(RegMemberController), 'zii.widgets.jui...', Array)
+#2 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\_form.php(47): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#7 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#9 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#11 C:\xampp1\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp1\htdocs\apotek_K24\protected\controllers\RegMemberController.php(79): CController->render('create', Array)
+#13 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): RegMemberController->actionCreate()
+#14 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#23 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('RegMember/Creat...')
+#24 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/apotek_k24/index.php?r=RegMember/Create&view=about
+---
+2016/07/22 06:40:01 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.changeYear" is not defined.' in C:\xampp1\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('changeYear', true)
+#1 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(RegMemberController), 'zii.widgets.jui...', Array)
+#2 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\_form.php(47): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#7 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#9 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#11 C:\xampp1\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp1\htdocs\apotek_K24\protected\controllers\RegMemberController.php(79): CController->render('create', Array)
+#13 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): RegMemberController->actionCreate()
+#14 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#23 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('RegMember/Creat...')
+#24 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/apotek_k24/index.php?r=RegMember/Create
+---
+2016/07/22 06:40:10 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.changeYear" is not defined.' in C:\xampp1\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('changeYear', true)
+#1 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(RegMemberController), 'zii.widgets.jui...', Array)
+#2 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\_form.php(47): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#7 C:\xampp1\htdocs\apotek_K24\protected\views\regMember\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#9 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', Array, true)
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', Array, true)
+#11 C:\xampp1\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp1\htdocs\apotek_K24\protected\controllers\RegMemberController.php(79): CController->render('create', Array)
+#13 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): RegMemberController->actionCreate()
+#14 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#23 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('RegMember/Creat...')
+#24 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/apotek_k24/index.php?r=RegMember/Create&view=about
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=RegMember
+---
+2016/07/22 06:49:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/index
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/view&id=1
+---
+2016/07/22 06:50:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/index
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/create
+---
+2016/07/22 06:50:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/create
+---
+2016/07/22 06:50:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/create
+---
+2016/07/22 06:52:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/index
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/view&id=1
+---
+2016/07/22 06:53:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/index
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/create
+---
+2016/07/22 06:53:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/index
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/create
+---
+2016/07/22 06:53:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('regMember/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=regMember/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=regMember/index
+---
+2016/07/22 06:58:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/index
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/view&id=2
+---
+2016/07/22 07:04:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('regMember/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=regMember/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=regMember/view&id=10
+---
+2016/07/22 07:06:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('regMember/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=regMember/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=regMember/view&id=11
+---
+2016/07/22 07:13:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('regMember/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=regMember/admin
+---
+2016/07/22 07:14:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('regMember/admin')
+#9 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/apotek_k24/index.php?r=regMember/admin
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=regMember/view&id=12
+---
+2016/07/22 07:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp1\htdocs\apotek_K24\protected\controllers\LoginController.php:157
+Stack trace:
+#0 C:\xampp1\htdocs\apotek_K24\protected\controllers\LoginController.php(55): LoginController->loadModel('2')
+#1 [internal function]: LoginController->actionView('2')
+#2 C:\xampp1\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(LoginController), Array)
+#3 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LoginController), Object(ReflectionMethod), Array)
+#4 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp1\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp1\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp1\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp1\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/view')
+#14 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/apotek_k24/index.php?r=login/view&id=2
+HTTP_REFERER=http://localhost/apotek_k24/index.php?r=login/admin
+---
+2016/07/22 08:04:04 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.Apotek" is not defined.' in C:\xampp1\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp1\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('Apotek')
+#1 C:\xampp1\htdocs\apotek_K24\protected\views\site\index.php(4): CModule->__get('Apotek')
+#2 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp1\\htdoc...', NULL, true)
+#4 C:\xampp1\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp1\\htdoc...', NULL, true)
+#5 C:\xampp1\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp1\htdocs\apotek_K24\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp1\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp1\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp1\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp1\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp1\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#13 C:\xampp1\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp1\htdocs\apotek_K24\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/apotek_k24/index.php?r=site/index
+---
